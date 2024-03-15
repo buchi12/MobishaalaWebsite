@@ -1,0 +1,287 @@
+/* Mobile View Styles */
+.container-mobile {
+    background-image: url('https://img.freepik.com/free-photo/empty-blackboard_53876-147512.jpg?w=1060&t=st=1710425593~exp=1710426193~hmac=88c22817e52bc98bdaf5a1ae12c238d21eafa07e5950cbaf61ee902450943be7');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .container-mobile {
+        display: none;
+    }
+}
+
+.heading-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-mobile {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+    .heading-mobile {
+        font-size: 45px;
+    }
+}
+
+.paragraph-mobile {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .paragraph-mobile {
+        font-size: 25px;
+    }
+}
+
+.span-mobile {
+    color: #ffff1a;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-mobile {
+    margin-top: 15px;
+    background-color: #cc0000;
+    color: #ffffff;
+    font-family: 'Roboto';
+    padding: 10px 12px 10px 12px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+    align-items: center;
+}
+
+.button-mobile1 {
+    background-color: #cc0000;
+    color: #ffffff;
+    font-family: 'Roboto';
+    padding: 10px 12px 10px 12px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .button-mobile1 {
+        font-size: 16px;
+    }
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .button-container {
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.paragraph-mobile1 {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+    .paragraph-mobile1 {
+        font-size: 20px;
+    }
+}
+
+.whatsapp-section {
+    background-color: #00b300;
+    display: flex;
+    padding: 8px;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    .whatsapp-section {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        align-self: flex-start;
+        padding: 5px 12px 5px 12px;
+    }
+}
+
+.icon-mobile {
+    width: 18px;
+    size: cover;
+}
+
+.iconI {
+    height: 10px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .icon-mobile {
+        width: 20px;
+    }
+}
+
+.message-mobile {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 4px;
+}
+
+@media screen and (min-width: 768px) {
+    .message-mobile {
+        font-size: 20px;
+    }
+}
+
+.description-container {
+    background-color: #b30000;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.heading-description {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.heading-details {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: bold;
+}
+
+.paragraph-details {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Desktop View Styles */
+.container-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .container-desktop {
+        background-image: url('https://img.freepik.com/free-photo/empty-blackboard_53876-147512.jpg?w=1060&t=st=1710425593~exp=1710426193~hmac=88c22817e52bc98bdaf5a1ae12c238d21eafa07e5950cbaf61ee902450943be7');
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+.heading-features {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-desktop {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+    .heading-desktop {
+        font-size: 45px;
+    }
+}
+
+.paragraph-desktop {
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .paragraph-desktop {
+        font-size: 25px;
+    }
+}
+
+.span-desktop {
+    color: #ffff1a;
+}
+
+.features-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-item {
+    list-style-type: circle;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button-desktop1 {
+    background-color: #ff0000;
+    color: #ffffff;
+
+}
+
+.paragraph-desktop1 {
+    color: #ffffff;
+}
+
+.desktop-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
